@@ -22,7 +22,7 @@ batch_size = 10  # Testing batch (too large may not have enough video memory and
 gen_image_num = 2000  # Number of images generated
 dsize = (62, 374)  # (width, height) The size to which the generated image will be scaled
 dataset_name = 'type1'  # Name of the dataset
-dir_path = r'C:/work/data/merged/%s/bad' % dataset_name # Path to the dataset
+dir_path = r'C:/work/data/1.original_dataset/%s/bad' % dataset_name # Path to the dataset
 save_dir = r'C:/work/generated_images/1.DCGAN/dc_1.bad'  # Output the path to the folder where the images are generated
 
 # Define the parameters (the ones here are generally not changed)
