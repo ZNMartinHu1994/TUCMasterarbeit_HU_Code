@@ -5,9 +5,11 @@ This code repository is used to store all the code required by Mr. Zhining Hu to
 All contents of this code repository are only shared with members of Jun.-Prof. Dr. Danny Kowerko's team at Chemnitz University of Technology for review or use. It may not be downloaded, copied, modified, or used commercially by other uninvolved persons.
 
 ## Recommended Configuration and Environment
-* **Operating System** : Windows 10, ubantu
+* **Operating System** : Windows, ubantu
 * **GPU** :
-* **CUDA** :
+  - NVIDIA T4/4 (GAN)
+  - NVIDIA GeForce RTX 2080 Ti (ResNet)
+* **CUDA** : 11.4
 * **Special Requirements Involving StyleGan 3** :GCC 7 or later (Linux) or Visual Studio (Windows) compilers.  Recommended GCC version depends on CUDA version, see for example [CUDA 11.4 system requirements](https://docs.nvidia.com/cuda/archive/11.4.1/cuda-installation-guide-linux/index.html#system-requirements).
 * **Python libraries** : see [environment.yaml](./environment.yaml) for exact library dependencies.  You can use the following commands with Miniconda3 to create and activate your StyleGAN3 Python environment:
   - `conda env create -f environment.yaml`
@@ -21,8 +23,9 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 
 * Image Data Generation
   - **DCGAN** : `./DCGan/test-from_dir.py`
-  - **CycleGan** :  `./CycleGan/test-from_dirA2B.py` (Conversion of faulty samples into flawless samples)
-                    `./CycleGan/test-from_dirB2A.py` (Conversion of flawless samples into faulty samples)
+  - **CycleGan** :
+    - `./CycleGan/test-from_dirA2B.py` (Conversion of faulty samples into flawless samples)
+    - `./CycleGan/test-from_dirB2A.py` (Conversion of flawless samples into faulty samples)
   - **StyleGan** : `./StyleGan/stylegan3_test.py`
 
 * Experimentation and Verification
