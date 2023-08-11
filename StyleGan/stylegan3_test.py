@@ -13,6 +13,7 @@ print(r'pytorch version:', torch.__version__)
 gen_img_num = 5000  # How many images are generated
 dsize = (56, 379)  # (width, height) The size to which the generated image will be scaled
 weight_path = r'C:/work/models/3.StyleGAN/1.bad-50+20/00000-stylegan3-t-good-gpus1-batch2-gamma12.2/network-snapshot-000020.pkl'  # The path where the trained weights are located
+# The output image is stored in the result_image folder in the same directory
 
 '''---------------------------Above is the definition parameter section------------------------------------------------'''
 
