@@ -45,7 +45,7 @@ discriminator_weights_path = os.path.join(directory, 'discriminator.h5')
 # Choose which gpu to use, if no gpu then use cpu
 if torch.cuda.is_available() and gpu >= 0:
     device = torch.device('cuda:%s' % gpu)
-    print('使用GPU:%s' % torch.cuda.get_device_name(0))
+    print('Using the GPU:%s' % torch.cuda.get_device_name(0))
 else:
     device = 'cpu'
 # Loading datasets and preprocessing
