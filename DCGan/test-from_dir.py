@@ -32,7 +32,7 @@ gpu = 0  # Select which GPU to compute on (put 0 here if there is only one GUP)
 
 
 directory = r'C:/work/models/1.DCGAN/type1/1.bad/' # Trained model paths
-image_dir = r'C:/work/check_images/1.DCGAN/5.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where samples of model training effect images are saved
+image_dir = r'C:/work/check_images/1.DCGAN/1.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where samples of model training effect images are saved
 
 '''---------------------------Above is the definition parameter section------------------------------------------------'''
 
