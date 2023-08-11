@@ -9,6 +9,8 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 * **GPU** :
 * **CUDA** :
 * **Special Requirements Involving StyleGan 3** :GCC 7 or later (Linux) or Visual Studio (Windows) compilers.  Recommended GCC version depends on CUDA version, see for example [CUDA 11.4 system requirements](https://docs.nvidia.com/cuda/archive/11.4.1/cuda-installation-guide-linux/index.html#system-requirements).
+* **Python libraries** : see [environment.yaml](./environment.yaml) for exact library dependencies.  You can use the following commands with Miniconda3 to create and activate your StyleGAN3 Python environment:
+  - `conda env create -f environment.yaml`
 
 
 ## Getting started
