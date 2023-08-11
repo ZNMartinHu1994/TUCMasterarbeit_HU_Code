@@ -60,8 +60,8 @@ save_step = 1  # Saves the intermediate result images and weights every few epoc
 # Creating Folders
 print(device)
 assert os.path.exists(dir_path), 'Path: %s does not exist, please check dir_path' % dir_path
-directory = r'C:/work/checkpoint/1.DCGAN/5.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where model parameters are saved
-image_dir = r'C:/work/check_images/1.DCGAN/5.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where samples of model training effect images are saved
+directory = r'C:/work/models/1.DCGAN/1.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where model parameters are saved
+image_dir = r'C:/work/check_images/1.DCGAN/1.bad/' + dataset_name + r'_%s_%s' % (h, w)  # Folder where samples of model training effect images are saved
 
 '''---------------------------Above is the definition parameter section------------------------------------------------'''
 
