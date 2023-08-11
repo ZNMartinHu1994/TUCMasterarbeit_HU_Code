@@ -30,6 +30,7 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
   - **Dataset preprocessing and hybrid dataset synthesis** : `./synthesize.ipynb`
 
 * Parameters and Tuning
-'''
----------------------------The following is the definition of the parameter section---------------------------------
-'''
+  -
+  - ```
+    ---------------------------The following is the definition of the parameter section---------------------------------
+    ```
