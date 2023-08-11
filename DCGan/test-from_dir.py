@@ -59,7 +59,7 @@ train_db = torch.utils.data.DataLoader(dataset=torch_train_dataset, batch_size=b
 # Building Network Models
 generator = Generator(c, h, w, noise_dim=noise_dim).to(device)
 generator.eval()  # Set to test state for testing
-# 输入数据，为随机噪声
+# Input data as random noise
 noise_test = torch.normal(0, 1, [gen_image_num * 3, noise_dim]).to(device)
 # noise_test = torch.randn([gen_image_num*3, noise_dim],).to(device)
 # Input data as random noise
