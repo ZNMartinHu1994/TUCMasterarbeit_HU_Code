@@ -7,6 +7,21 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 ## Recommended Configuration and Environment
 * **Operating System** : Windows, ubantu
 * **GPU** :
-* GCC 7 or later (Linux) or Visual Studio (Windows) compilers.  Recommended GCC version depends on CUDA version, see for example [CUDA 11.4 system requirements](https://docs.nvidia.com/cuda/archive/11.4.1/cuda-installation-guide-linux/index.html#system-requirements).
+* **CUDA** :
+* **Special Requirements Involving StyleGan 3** :GCC 7 or later (Linux) or Visual Studio (Windows) compilers.  Recommended GCC version depends on CUDA version, see for example [CUDA 11.4 system requirements](https://docs.nvidia.com/cuda/archive/11.4.1/cuda-installation-guide-linux/index.html#system-requirements).
 
-* + this will be highlighted in green
+
+## Getting started
+* Gan Model Training
+  - **DCGAN** : `./DCGan/train.py`
+  - **CycleGan** : `./CycleGan/train.py`
+  - **StyleGan** : `./StyleGan/stylegan3_train.py`
+
+* Image Data Generation
+  - **DCGAN** : `./DCGan/test-from_dir.py`
+  - **CycleGan** : `./CycleGan/test-from_dirA2B.py` (Conversion of faulty samples into flawless samples)
+                   `./CycleGan/test-from_dirB2A.py` (Conversion of flawless samples into faulty samples)
+  - **StyleGan** : `./StyleGan/stylegan3_test.py`
+
+# Experimentation and Verification
+  - **ResNet** : `ResNet152V2.py`
