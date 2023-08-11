@@ -26,9 +26,6 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 * Experimentation and Verification
   - **ResNet** : `./ResNet152V2.py`
 
-* Organization of data sets
-  - **Dataset preprocessing and hybrid dataset synthesis** : `./synthesize.ipynb`
-
 * Parameters and Tuning
   Please look for this specially labeled field in the file above, where all adjustable parameters for training, generation, and testing are located. The meaning of each parameter is commented on in detail.
   ```
@@ -39,3 +36,8 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
   '''---------------------------Above is the definition parameter section------------------------------------------------'''
   ```
   **Please do not modify anything other than this field.**
+
+* Organization of data sets
+  - **Dataset preprocessing and hybrid dataset synthesis** : `./synthesize.ipynb`
+
+
