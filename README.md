@@ -19,9 +19,17 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 
 * Image Data Generation
   - **DCGAN** : `./DCGan/test-from_dir.py`
-  - **CycleGan** : - `./CycleGan/test-from_dirA2B.py` (Conversion of faulty samples into flawless samples)
-                   - `./CycleGan/test-from_dirB2A.py` (Conversion of flawless samples into faulty samples)
+  - **CycleGan** :  `./CycleGan/test-from_dirA2B.py` (Conversion of faulty samples into flawless samples)
+                    `./CycleGan/test-from_dirB2A.py` (Conversion of flawless samples into faulty samples)
   - **StyleGan** : `./StyleGan/stylegan3_test.py`
 
 * Experimentation and Verification
-  - **ResNet** : `ResNet152V2.py`
+  - **ResNet** : `./ResNet152V2.py`
+
+* Organization of data sets
+  - **Dataset preprocessing and hybrid dataset synthesis** : `./synthesize.ipynb`
+
+* Parameters and Tuning
+'''
+'''---------------------------The following is the definition of the parameter section---------------------------------'''
+'''
