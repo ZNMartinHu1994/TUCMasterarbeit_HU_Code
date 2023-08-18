@@ -59,5 +59,5 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
   - [Alias-Free Generative Adversarial Networks](https://arxiv.org/abs/1703.10593), Karras et al. 2021
   - [Official PyTorch implementation of StyleGAN3](https://github.com/NVlabs/stylegan3) by [NVlabs](https://github.com/NVlabs) (GitHub)
 * **ResNet**
-  - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385v1), He et al. 2021
+  - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385v1), He et al. 2015
   - [torchvision.models.resnet152](https://pytorch.org/vision/stable/models/generated/torchvision.models.resnet152.html) by PyTorch
