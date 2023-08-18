@@ -45,4 +45,19 @@ All contents of this code repository are only shared with members of Jun.-Prof. 
 * Organization of data sets
   - **Dataset preprocessing and hybrid dataset synthesis** : `./synthesize.ipynb`
 
-
+## References:
+* **DCGAN**
+  - [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434), Radford et al. 2015
+  - [PyTorch Implementation of DCGAN trained on the CelebA dataset](https://github.com/Natsu6767/DCGAN-PyTorch) by [Natsu6767](https://github.com/Natsu6767) (GitHub)
+  - [PyTorch implementations of Generative Adversarial Networks](https://github.com/eriklindernoren/PyTorch-GAN) by [eriklindernoren](https://github.com/eriklindernoren) (GitHub)
+  - [labml.ai Annotated PyTorch Paper Implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) by [labmlai](https://github.com/labmlai) (GitHub)
+* **CycleGan**
+  - [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593), Zhu et al. 2017
+  - [CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by [junyanz](https://github.com/junyanz) (GitHub)
+  - [A clean and readable Pytorch implementation of CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN) by [aitorzip](https://github.com/aitorzip) (GitHub)
+* **StyleGan**
+  - [Alias-Free Generative Adversarial Networks](https://arxiv.org/abs/1703.10593), Karras et al. 2021
+  - [Official PyTorch implementation of StyleGAN3](https://github.com/NVlabs/stylegan3) by [NVlabs](https://github.com/NVlabs) (GitHub)
+* **ResNet**
+  - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385v1), He et al. 2021
+  - [torchvision.models.resnet152](https://pytorch.org/vision/stable/models/generated/torchvision.models.resnet152.html) by PyTorch
